@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Collectable : ClickableObjects
 {
-    public string ItemName;
+    public InventoryItemSO Item;
     public InventorySO inventory;
 
     public override void Interact()
     {
-        inventory.AddItem(ItemName);
+        inventory.AddItem(Item);
         Destroy(gameObject);
     }
 }

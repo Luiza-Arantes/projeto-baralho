@@ -6,7 +6,7 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName="Inventory",menuName="ScriptableObjects/Inventory")]
 public class InventorySO : ScriptableObject
 {
-    public List<string> itens = new List<string>();
+    public List<InventoryItemSO> itens = new List<InventoryItemSO>();
 
     public UnityEvent itemEvent;
 
@@ -20,14 +20,14 @@ public class InventorySO : ScriptableObject
         itens.Clear();
     }
 
-    public void AddItem(string item)
+    public void AddItem(InventoryItemSO item)
     {
         itens.Add(item);
 
         itemEvent?.Invoke();
     }
 
-    public void RemoveItem(string item)
+    public void RemoveItem(InventoryItemSO item)
     {
         itens.Remove(item);
 

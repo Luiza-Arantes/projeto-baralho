@@ -5,6 +5,8 @@ using UnityEngine;
 public class InventoryUiManager : MonoBehaviour
 {
     public InventorySO inventory;
+    public List<InventoryBoxUi> inventoryBoxes = new List<InventoryBoxUi>();
+
 
     private void OnEnable()
     {
@@ -18,7 +20,10 @@ public class InventoryUiManager : MonoBehaviour
 
     private void UpdateUi()
     {
-        Debug.Log("Funciona");
+        for (int i = 0; i < inventory.itens.Count; i++)
+        {
+            Debug.Log(inventory.itens[i].Name);
+        }
     }
 
     // Start is called before the first frame update

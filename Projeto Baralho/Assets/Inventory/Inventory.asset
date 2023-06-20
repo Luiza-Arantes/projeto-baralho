@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Inventory
   m_EditorClassIdentifier: 
   itens: []
+  itemEvent:
+    m_PersistentCalls:
+      m_Calls: []

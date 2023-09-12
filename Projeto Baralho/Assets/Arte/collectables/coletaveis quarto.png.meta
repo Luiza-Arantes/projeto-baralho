@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: coletaveis quarto_1
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 986
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166845863ded850489b962579f9680a4
+      internalID: 1236037343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_2
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 922
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6912d7cc6d59248a1ed62c558dcd0f
+      internalID: 682297052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_3
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 932
+        width: 83
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fddb2282a322e4eb2d21fe075da8f2
+      internalID: 941543279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_4
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 925
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7f23977024244dab5b1556c4b14f5
+      internalID: -1143888771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_5
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 935
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ca2cf2d53c2974abb76b89e8b28dcc
+      internalID: -175560114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_6
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 933
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6455134f6801e74b8cca54c0e6aa970
+      internalID: -1835895541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_7
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 938
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683cbe6e142592c4ca9a524fa02f2e0a
+      internalID: -1617766871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_8
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 937
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d080d256cbfeee448d92b8b546cc786
+      internalID: 1574366914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_9
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 934
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dc5c7b079a5034a9a2229f6f550792
+      internalID: -1411666702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_10
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 936
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f95bc99e1678645986de16697970fb
+      internalID: -1245270032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_11
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 872
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5d3a894c3a3fb48a8c7bf29ea1afc8
+      internalID: 25566380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_12
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 692
+        width: 320
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f6f0c756da547489dc262091a43104
+      internalID: 1655200367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_13
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 823
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81341af30c4dbb74ca27c7afeb01ea82
+      internalID: -1307590118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_14
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 797
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6605c9c978d46d84ea6138942ab9309e
+      internalID: 1725733725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_15
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 770
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817fdf1ed13c7ac4aaff02d306dd15b2
+      internalID: -1826750289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_16
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 744
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90c1642a957aa14aa4931a32be4f3b8
+      internalID: -989037027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_18
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 513
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123cd7895d0e70045829f963abbb548d
+      internalID: -1340377277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_19
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 513
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaafb503db77f94f812bdd8ab76c467
+      internalID: -1261026902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_20
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 513
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9326631bf636e5d45a6f6f640f3a4901
+      internalID: 491343243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_21
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 513
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a581904f56426ac48af10b53e90b71f0
+      internalID: 1425042777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_22
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 373
+        width: 80
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c840edbe6f88746a32eaa09a78c9a6
+      internalID: 663235775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_23
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 373
+        width: 80
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8881437e7ea28e64789c397f173273d0
+      internalID: -1846823291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_24
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 373
+        width: 80
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc56df7200041da4f829f6a46da68b7e
+      internalID: 410489054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coletaveis quarto_25
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 373
+        width: 80
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff5f6f2d3e9f9a498c16dd7994bc38b
+      internalID: -647183601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +636,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coletaveis quarto_0: -485305186
+      coletaveis quarto_1: 1236037343
+      coletaveis quarto_10: -1245270032
+      coletaveis quarto_11: 25566380
+      coletaveis quarto_12: 1655200367
+      coletaveis quarto_13: -1307590118
+      coletaveis quarto_14: 1725733725
+      coletaveis quarto_15: -1826750289
+      coletaveis quarto_16: -989037027
+      coletaveis quarto_17: -581564228
+      coletaveis quarto_18: -1340377277
+      coletaveis quarto_19: -1261026902
+      coletaveis quarto_2: 682297052
+      coletaveis quarto_20: 491343243
+      coletaveis quarto_21: 1425042777
+      coletaveis quarto_22: 663235775
+      coletaveis quarto_23: -1846823291
+      coletaveis quarto_24: 410489054
+      coletaveis quarto_25: -647183601
+      coletaveis quarto_3: 941543279
+      coletaveis quarto_4: -1143888771
+      coletaveis quarto_5: -175560114
+      coletaveis quarto_6: -1835895541
+      coletaveis quarto_7: -1617766871
+      coletaveis quarto_8: 1574366914
+      coletaveis quarto_9: -1411666702
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

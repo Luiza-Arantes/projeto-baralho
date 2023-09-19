@@ -7,9 +7,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 {
     [SerializeField] private Canvas canvas;
     [SerializeField] private RectTransform parentTransform;
+
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-
+    public bool isBeingDragged;
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -19,6 +20,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = false;
+        isBeingDragged = true;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -29,6 +31,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = true;
+        isBeingDragged = false;
+
         transform.position = parentTransform.position;
     }
 

@@ -20,8 +20,6 @@ public class PaintingPuzzle : MonoBehaviour
     {
         if (isComplete()) { 
               entrance.SetActive(true);
- 
-           
         }
 
         if (Input.GetMouseButtonUp(0) && pencil!=null)

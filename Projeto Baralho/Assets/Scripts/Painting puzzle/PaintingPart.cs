@@ -10,7 +10,8 @@ public class PaintingPart : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public bool isMouseOver = false;
 
     public bool isPainted;
-    public Pencil rightPencil;  
+    public Pencil rightPencil;
+    [HideInInspector]
     public RectTransform rectTransform;
      // Start is called before the first frame update
     void Start()

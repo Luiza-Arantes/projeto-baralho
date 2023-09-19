@@ -14,7 +14,7 @@ public class Pencil :   MonoBehaviour
     void Start()
     {
         this.color = this.GetComponent<Image>().color;
-        
+         
     }
  
 

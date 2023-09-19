@@ -83,5 +83,7 @@ public class ComputerPuzzleManager : MonoBehaviour
         }
 
         gameObject.SetActive(false);
+
+        //acho que aqui eu escrevo que abre o popup do pc desbloqueado
     }
 }

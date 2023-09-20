@@ -6514,8 +6514,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 573148628}
-  - {fileID: 349723563}
   - {fileID: 516541462}
+  - {fileID: 349723563}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9084,6 +9084,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2669890208685584811, guid: 8061fd0b4af192b439357133fcfcd9bf, type: 3}
+      propertyPath: popupCanvas
+      value: 
+      objectReference: {fileID: 427098464}
     - target: {fileID: 5907248102111415558, guid: 8061fd0b4af192b439357133fcfcd9bf, type: 3}
       propertyPath: popupCanvas
       value: 
@@ -9147,15 +9151,15 @@ PrefabInstance:
       objectReference: {fileID: 1370332632}
     - target: {fileID: 793915409234012640, guid: 0d392aca2d6c75a47b829875999a5350, type: 3}
       propertyPath: m_Spacing
-      value: -10.4
+      value: 4.43
       objectReference: {fileID: 0}
     - target: {fileID: 793915409234012640, guid: 0d392aca2d6c75a47b829875999a5350, type: 3}
       propertyPath: m_Padding.m_Left
-      value: 6
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 793915409234012640, guid: 0d392aca2d6c75a47b829875999a5350, type: 3}
       propertyPath: m_Padding.m_Right
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1075731333749387509, guid: 0d392aca2d6c75a47b829875999a5350, type: 3}
       propertyPath: canvas

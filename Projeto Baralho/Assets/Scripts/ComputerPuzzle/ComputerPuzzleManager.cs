@@ -9,6 +9,9 @@ public class ComputerPuzzleManager : MonoBehaviour
     [SerializeField] private List<InventoryItemSO> rightOrder = new List<InventoryItemSO>();
     [SerializeField] private List<InventoryItemSO> currentOrder = new List<InventoryItemSO>();
     [SerializeField] private bool completed = false;
+    public bool insertedDisc = false;
+    [SerializeField] private GameObject windowsBg;
+    [SerializeField] private GameObject window;
 
     [SerializeField] private List<Toggle> toggles = new List<Toggle>();
 
@@ -16,10 +19,26 @@ public class ComputerPuzzleManager : MonoBehaviour
     void OnEnable()
     {
         currentOrder.Clear();
+
+        if (completed)
+        {
+            windowsBg.SetActive(true);
+
+            if (insertedDisc)
+            {
+                window.SetActive(true);
+            }
+        }
     }
 
     public void InsertCard(InventoryItemSO card)
     {
+        if (!card.Name.Contains("Glasses") && !card.Name.Contains("Shirt") && !card.Name.Contains("Pants") && !card.Name.Contains("Shoes"))
+            return;
+
+        if (completed)
+            return;
+
         currentOrder.Add(card);
         inventory.RemoveItem(card);
 
@@ -58,6 +77,21 @@ public class ComputerPuzzleManager : MonoBehaviour
         }
 
         completed = true;
+        windowsBg.SetActive(true);
+        List<InventoryItemSO> itensToRemove = new List<InventoryItemSO>();
+
+        for (int i = 0; i < inventory.itens.Count; i++)
+        {
+            if (inventory.itens[i].Name.Contains("Glasses") || inventory.itens[i].Name.Contains("Shirt") || inventory.itens[i].Name.Contains("Pants") || inventory.itens[i].Name.Contains("Shoes"))
+            {
+                itensToRemove.Add(inventory.itens[i]);
+            }
+        }
+
+        foreach (InventoryItemSO item in itensToRemove)
+        {
+            inventory.RemoveItem(item);
+        }
     }
 
     private void ResetPuzzle()
@@ -83,7 +117,15 @@ public class ComputerPuzzleManager : MonoBehaviour
         }
 
         gameObject.SetActive(false);
+    }
 
-        //acho que aqui eu escrevo que abre o popup do pc desbloqueado
+    public void InsertDisc(InventoryItemSO item)
+    {
+        if (!insertedDisc)
+        {
+            window.SetActive(true);
+            inventory.RemoveItem(item);
+            insertedDisc = true;
+        }
     }
 }

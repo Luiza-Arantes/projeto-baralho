@@ -15,7 +15,7 @@ public class LightsOutCell : MonoBehaviour
         }
         if (isOn)
         {
-            image.color = Color.white;
+            image.color = Color.clear;
         }
         else
         {

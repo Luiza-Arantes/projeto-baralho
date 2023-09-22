@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class LightsOut : MonoBehaviour
@@ -9,6 +10,8 @@ public class LightsOut : MonoBehaviour
     public int rows;
     public int columns;
     public static LightsOut instance;
+
+    public UnityEvent onSolve;
 
     private void Start()
     {
@@ -52,7 +55,31 @@ public class LightsOut : MonoBehaviour
         if (CellExists(x, y))
         {
             cells[GetIndex(x, y)].Flip();
+            CheckSolved();
         }
+    }
+
+    void CheckSolved()
+    {
+        foreach (var cell in cells)
+        {
+            if (!cell.isOn)
+            {
+                return;
+            }
+        }
+
+        foreach (var cell in cells)
+        {
+            cell.gameObject.SetActive(false);
+        }
+        
+        Invoke(nameof(OnSolve), 1f);
+    }
+
+    void OnSolve()
+    {
+        onSolve.Invoke();
     }
 
     public void OnCellClicked(int index)

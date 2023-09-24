@@ -19,6 +19,7 @@ public class ItemReceiver : MonoBehaviour, IDropHandler
             if (item.Name == itemName)
             {
                 onReceive.Invoke();
+                inventorySO.RemoveItem(item);
             }
         }
     }

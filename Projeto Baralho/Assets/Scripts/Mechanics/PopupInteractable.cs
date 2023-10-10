@@ -5,10 +5,17 @@ using UnityEngine;
 public class PopupInteractable : ClickableObjects
 {
     public GameObject popupCanvas;
+    public bool canInteract = true;
 
     public override void Interact()
     {
-        popupCanvas.SetActive(true);
+        if (canInteract)
+            popupCanvas.SetActive(true);
+    }
+
+    public void SetInteraction()
+    {
+        canInteract = true;
     }
 
 

@@ -152,7 +152,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 4648182151658903418}
   toggleTransition: 1
   graphic: {fileID: 1487831539360337567}
@@ -687,6 +687,10 @@ MonoBehaviour:
   inventorySO: {fileID: 11400000, guid: e9b5f3ad896a57d49a2c1b8afd293a2c, type: 2}
   computerPuzzleManager: {fileID: 1639441056253302867}
   discReader: 1
+  dropEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  neededItem: {fileID: 0}
 --- !u!1 &3122071910305005210
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +857,10 @@ MonoBehaviour:
   inventorySO: {fileID: 11400000, guid: e9b5f3ad896a57d49a2c1b8afd293a2c, type: 2}
   computerPuzzleManager: {fileID: 1639441056253302867}
   discReader: 0
+  dropEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  neededItem: {fileID: 0}
 --- !u!1 &5444732431187395181
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,7 +937,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 8451525589252439537}
   toggleTransition: 1
   graphic: {fileID: 2307340911286153119}
@@ -1128,7 +1136,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2692906464168308250}
   toggleTransition: 1
   graphic: {fileID: 4718923964211503592}
@@ -1648,7 +1656,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 4465931605600052521}
   toggleTransition: 1
   graphic: {fileID: 8642433504527262712}

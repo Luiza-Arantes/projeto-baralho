@@ -4207,7 +4207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &427098465
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8286,7 +8286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772fc51eeaad95c468e64a0d50e86729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  daySprite: {fileID: -832605102, guid: 0f3963a5fe77dff42a3d1bca599f33be, type: 3}
+  daySprite: {fileID: 1597869118, guid: 0f3963a5fe77dff42a3d1bca599f33be, type: 3}
   nightSprite: {fileID: -847978718, guid: 1bb80ffd8f56a7045a7080c5c7bc89e0, type: 3}
   image: {fileID: 980462425}
 --- !u!114 &980462424
@@ -8906,7 +8906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1027122936
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16416,14 +16416,14 @@ RectTransform:
   m_GameObject: {fileID: 1948795081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.8, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 505024518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -7, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948795083

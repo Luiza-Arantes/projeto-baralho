@@ -2,20 +2,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class StickersPuzzle : MonoBehaviour {
+public class StickersPuzzle : MonoBehaviour
+{
 
     public List<Sticker> solutionStickers;
     public List<int> solutionIndexes;
     public UnityEvent onSolve;
-    Dictionary<Sticker,int> stickerPositions;
+    Dictionary<Sticker, int> stickerPositions;
 
-    private void Awake() {
+    private void Awake()
+    {
         stickerPositions = new Dictionary<Sticker, int>();
     }
     public void SetSticker(Sticker sticker, int index)
     {
         stickerPositions[sticker] = index;
         CheckSolved();
+        if (solutionIndexes[solutionStickers.FindIndex((s) => s == sticker)] == index)
+        {
+            Debug.Log("Coloquei no luagr certo!");
+            sticker.gameObject.GetComponent<DragDrop>().enabled = false;
+        }
     }
 
     public void RemoveSticker(Sticker sticker)
@@ -25,17 +32,17 @@ public class StickersPuzzle : MonoBehaviour {
 
     public void CheckSolved()
     {
-        if(solutionStickers.Count != solutionIndexes.Count)
+        if (solutionStickers.Count != solutionIndexes.Count)
         {
             Debug.Log("ERRO! solução impossível");
         }
-        for (int i=0;i<solutionStickers.Count;i++)
+        for (int i = 0; i < solutionStickers.Count; i++)
         {
-            if(!stickerPositions.ContainsKey(solutionStickers[i]))
+            if (!stickerPositions.ContainsKey(solutionStickers[i]))
             {
                 return;
             }
-            if(stickerPositions[solutionStickers[i]] != solutionIndexes[i])
+            if (stickerPositions[solutionStickers[i]] != solutionIndexes[i])
             {
                 return;
             }

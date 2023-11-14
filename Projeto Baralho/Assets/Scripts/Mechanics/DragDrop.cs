@@ -45,5 +45,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void ChangeParent(RectTransform transform)
     {
         parentTransform = transform;
+        canvasGroup.blocksRaycasts = true;
+        isBeingDragged = false;
+        this.transform.position = parentTransform.position;
     }
 }

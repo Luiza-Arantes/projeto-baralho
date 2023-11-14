@@ -8,12 +8,16 @@ public class StickerSlot : MonoBehaviour, IDropHandler
     {
         if (eventData.pointerDrag.TryGetComponent<Sticker>(out var sticker))
         {
-            if(!eventData.pointerDrag.TryGetComponent<DragDrop>(out var drag))
+            if (!eventData.pointerDrag.TryGetComponent<DragDrop>(out var drag))
             {
                 Debug.Log("Error! drag faltando");
+                return;
             }
-            drag.ChangeParent(GetComponent<RectTransform>());
+            else
+            {
+                drag.ChangeParent(GetComponent<RectTransform>());
+                sticker.puzzle.SetSticker(sticker, index);
+            }
         }
-        sticker.puzzle.SetSticker(sticker,index);
     }
 }

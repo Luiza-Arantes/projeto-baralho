@@ -15,7 +15,10 @@ public class ItemReceiver : MonoBehaviour, IDropHandler
         if (eventData.pointerDrag != null)
         {
             InventoryItemSO item = inventorySO.itens.Find(x => x.Icon == eventData.pointerDrag.GetComponent<Image>().sprite);
-
+            if (item == null)
+            {
+                return;
+            }
             if (item.Name == itemName)
             {
                 onReceive.Invoke();

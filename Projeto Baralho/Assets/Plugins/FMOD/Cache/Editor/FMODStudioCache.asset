@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: ../../../Fmod/AudioBaralho/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638349054886755199
+  lastModified: 638356684091554072
   FileSizes:
   - Name: Desktop
-    Value: 800
+    Value: 1012
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -71,7 +71,7 @@ MonoBehaviour:
   - {fileID: 3332710491416417662}
   StringsBanks:
   - {fileID: -470137272405635127}
-  cacheTime: 638349054888083261
+  cacheTime: 638356684092177610
   cacheVersion: 131608
 --- !u!114 &3332710491416417662
 MonoBehaviour:
@@ -88,10 +88,10 @@ MonoBehaviour:
   Path: ../../../Fmod/AudioBaralho/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638349054886705247
+  lastModified: 638356684091524144
   FileSizes:
   - Name: Desktop
-    Value: 4185152
+    Value: 4186016
   Exists: 1
 --- !u!114 &4989531918038840176
 MonoBehaviour:
@@ -108,7 +108,7 @@ MonoBehaviour:
   Path: ../../../Fmod/AudioBaralho/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638349054888083261
+  lastModified: 638356684092177610
   FileSizes:
   - Name: Desktop
     Value: 4184640

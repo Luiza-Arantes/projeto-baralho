@@ -2452,7 +2452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &221186254
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6473,31 +6473,7 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1949671350}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 664655024}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!1 &681974525
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,10 +10559,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 779353960}
+  - {fileID: 1408732571}
   - {fileID: 235859660}
   - {fileID: 1633792354}
-  - {fileID: 1408732571}
-  - {fileID: 779353960}
   m_Father: {fileID: 683405143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -16780,7 +16756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   daySprite: {fileID: 1517854135, guid: 1bb80ffd8f56a7045a7080c5c7bc89e0, type: 3}
-  nightSprite: {fileID: 0}
+  nightSprite: {fileID: -734541439, guid: 1bb80ffd8f56a7045a7080c5c7bc89e0, type: 3}
   image: {fileID: 1948795084}
 --- !u!114 &1948795084
 MonoBehaviour:
@@ -16802,7 +16778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1517854135, guid: 1bb80ffd8f56a7045a7080c5c7bc89e0, type: 3}
+  m_Sprite: {fileID: -734541439, guid: 1bb80ffd8f56a7045a7080c5c7bc89e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

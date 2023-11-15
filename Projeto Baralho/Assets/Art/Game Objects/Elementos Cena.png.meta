@@ -635,7 +635,7 @@ TextureImporter:
         width: 158
         height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -643,6 +643,48 @@ TextureImporter:
       bones: []
       spriteID: 7e97cfbefc9dea049bc1ebf796a7973d
       internalID: -1710575991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementos Cena_25
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 888
+        width: 76
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ac8b4d182f0ec47aadb03a4692e58d
+      internalID: -1110176460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementos Cena_26
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 888
+        width: 76
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa68b9e1871efea4fb5a00a98becab21
+      internalID: 224660977
       vertices: []
       indices: 
       edges: []
@@ -677,6 +719,7 @@ TextureImporter:
       Elementos Cena_23: 545084279
       Elementos Cena_24: -1710575991
       Elementos Cena_25: -1110176460
+      Elementos Cena_26: 224660977
       Elementos Cena_3: -922136912
       Elementos Cena_4: 629048982
       Elementos Cena_5: 1041881428

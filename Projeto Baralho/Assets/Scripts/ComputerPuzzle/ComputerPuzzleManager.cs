@@ -77,6 +77,7 @@ public class ComputerPuzzleManager : MonoBehaviour
         }
 
         completed = true;
+        Progression.IncrementCounter("Reflexo");
         windowsBg.SetActive(true);
         List<InventoryItemSO> itensToRemove = new List<InventoryItemSO>();
 

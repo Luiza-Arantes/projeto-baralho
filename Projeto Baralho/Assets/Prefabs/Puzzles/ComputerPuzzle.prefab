@@ -958,6 +958,7 @@ GameObject:
   - component: {fileID: 8426593691349838652}
   - component: {fileID: 2954764453534815063}
   - component: {fileID: 1639441056253302867}
+  - component: {fileID: 4966565211282849606}
   m_Layer: 5
   m_Name: ComputerPuzzle
   m_TagString: Untagged
@@ -1060,6 +1061,18 @@ MonoBehaviour:
   - {fileID: 4131223754875012666}
   - {fileID: 8045819814598450931}
   - {fileID: 5069998535983077442}
+--- !u!114 &4966565211282849606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595864800953142599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd24179cecd6f746b3bfe8979014fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6061947439168406805
 GameObject:
   m_ObjectHideFlags: 0

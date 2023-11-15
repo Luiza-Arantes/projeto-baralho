@@ -126,12 +126,12 @@ TextureImporter:
       name: lock icons_0
       rect:
         serializedVersion: 2
-        x: 617
+        x: 583
         y: 764
-        width: 120
+        width: 188
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: lock icons_1
       rect:
         serializedVersion: 2
-        x: 781
-        y: 782
-        width: 160
-        height: 159
+        x: 773
+        y: 781
+        width: 175
+        height: 175
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: lock icons_2
       rect:
         serializedVersion: 2
-        x: 982
+        x: 969
         y: 776
-        width: 140
+        width: 166
         height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: lock icons_3
       rect:
         serializedVersion: 2
-        x: 1162
-        y: 784
-        width: 146
+        x: 1151
+        y: 786
+        width: 167
         height: 167
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: lock icons_4
       rect:
         serializedVersion: 2
-        x: 617
+        x: 583
         y: 533
-        width: 120
+        width: 188
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: lock icons_5
       rect:
         serializedVersion: 2
-        x: 781
-        y: 551
-        width: 160
-        height: 159
+        x: 773
+        y: 550
+        width: 175
+        height: 175
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: lock icons_6
       rect:
         serializedVersion: 2
-        x: 982
+        x: 969
         y: 545
-        width: 140
+        width: 166
         height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: lock icons_7
       rect:
         serializedVersion: 2
-        x: 1162
+        x: 1151
         y: 553
-        width: 146
+        width: 167
         height: 167
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,12 +294,12 @@ TextureImporter:
       name: lock icons_8
       rect:
         serializedVersion: 2
-        x: 617
+        x: 583
         y: 318
-        width: 120
+        width: 188
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: lock icons_9
       rect:
         serializedVersion: 2
-        x: 781
-        y: 336
-        width: 160
-        height: 159
+        x: 773
+        y: 335
+        width: 175
+        height: 175
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: lock icons_10
       rect:
         serializedVersion: 2
-        x: 982
-        y: 331
-        width: 140
+        x: 969
+        y: 332
+        width: 166
         height: 165
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: lock icons_11
       rect:
         serializedVersion: 2
-        x: 1162
+        x: 1151
         y: 338
-        width: 146
+        width: 167
         height: 167
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

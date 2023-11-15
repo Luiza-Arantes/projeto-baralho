@@ -2452,7 +2452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &221186254
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4930,7 +4930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16139,11 +16139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4176289004239783336, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -167
+      value: -165.9
       objectReference: {fileID: 0}
     - target: {fileID: 4176289004239783336, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 294
+      value: 294.6
       objectReference: {fileID: 0}
     - target: {fileID: 4318018339156932772, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -16279,11 +16279,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4472312545240209235, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 167
+      value: 165.9
       objectReference: {fileID: 0}
     - target: {fileID: 4472312545240209235, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 294
+      value: 294.6
       objectReference: {fileID: 0}
     - target: {fileID: 4686236570076569278, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_Name
@@ -16323,7 +16323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7210637087851978589, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 349.9
+      value: 356.5
       objectReference: {fileID: 0}
     - target: {fileID: 7658637842202026730, guid: 8afaa37a34862df4a8efc4f07768cf5d, type: 3}
       propertyPath: m_Pivot.x

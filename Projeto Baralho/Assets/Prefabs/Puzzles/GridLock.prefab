@@ -727,8 +727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5921eb30fa04ca4aa16609bf26020f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSprite: {fileID: 326680993, guid: 42d55f48bd7720f4cbe781ab5940cf1c, type: 3}
-  offSprite: {fileID: 996161657, guid: 42d55f48bd7720f4cbe781ab5940cf1c, type: 3}
+  onSprite: {fileID: 1541913657, guid: 1bb80ffd8f56a7045a7080c5c7bc89e0, type: 3}
+  offSprite: {fileID: 2114515058, guid: 8478dff808ab1e542aa5a6f940cde059, type: 3}
   buttons:
   - {fileID: 8166294311500766459}
   - {fileID: 8882084482752668242}

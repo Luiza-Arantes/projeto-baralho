@@ -131,7 +131,7 @@ TextureImporter:
         width: 655
         height: 550
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,7 +152,7 @@ TextureImporter:
         width: 655
         height: 550
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,6 +160,27 @@ TextureImporter:
       bones: []
       spriteID: b0692bb27a1dba34284c28a0c3046275
       internalID: 578463166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiaeNoite_2
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 594
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c08ba1cd375a3249ac98844817b3bb1
+      internalID: 2114515058
       vertices: []
       indices: 
       edges: []
@@ -177,6 +198,7 @@ TextureImporter:
     nameFileIdTable:
       DiaeNoite_0: 1800732067
       DiaeNoite_1: 578463166
+      DiaeNoite_2: 2114515058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

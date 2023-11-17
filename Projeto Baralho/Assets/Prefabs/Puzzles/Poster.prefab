@@ -1793,6 +1793,7 @@ GameObject:
   - component: {fileID: 5339861707723645295}
   - component: {fileID: 7109122469578131517}
   - component: {fileID: 3874498298909729874}
+  - component: {fileID: 6539289463675519333}
   m_Layer: 5
   m_Name: Poster
   m_TagString: Untagged
@@ -1878,7 +1879,31 @@ MonoBehaviour:
   solutionIndexes: 07000000050000000300000000000000
   onSolve:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6539289463675519333}
+        m_TargetAssemblyTypeName: Progression, Assembly-CSharp
+        m_MethodName: IncrementCounter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Reflexo
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6539289463675519333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8004318415626147119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd24179cecd6f746b3bfe8979014fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8526498267056842255
 GameObject:
   m_ObjectHideFlags: 0

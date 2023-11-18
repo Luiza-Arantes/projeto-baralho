@@ -31,12 +31,14 @@ public class CardHolder : MonoBehaviour, IDropHandler
                 inventorySO.RemoveItem(item);
                 return;
             }
+            else if (neededItem != null && item != neededItem)
+                return;
 
-            if (item.Name == "CD" && discReader)
+            if (item.Name == "CD" && discReader && computerPuzzleManager.GetCompleted())
             {
                 computerPuzzleManager.InsertDisc(item);
             }
-            else
+            else if (!discReader)
             {
                 computerPuzzleManager.InsertCard(item);
             }

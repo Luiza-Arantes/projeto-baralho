@@ -129,4 +129,9 @@ public class ComputerPuzzleManager : MonoBehaviour
             insertedDisc = true;
         }
     }
+
+    public bool GetCompleted()
+    {
+        return completed;
+    }
 }

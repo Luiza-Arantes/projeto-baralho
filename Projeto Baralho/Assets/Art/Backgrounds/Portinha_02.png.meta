@@ -143,6 +143,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Portinha_02_1
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 336
+        width: 382
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6b24861a930ba4fa296738db889754
+      internalID: -30094242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -155,6 +176,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Portinha_02_0: 349780777
+      Portinha_02_1: -30094242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,7 +15,7 @@ public class ProgressionSpriteSwitcher : MonoBehaviour
 		UpdateSprite();
 	}
 
-	void UpdateSprite()
+	public void UpdateSprite()
 	{
 		int value = Progression.GetEventCounter(eventId);
 		if(value < sprites.Count)

@@ -27,6 +27,11 @@ public class Progression : MonoBehaviour
         {
             events[eventId] += 1;
         }
+        var spriteSwitchers = FindObjectsOfType<ProgressionSpriteSwitcher>(false);
+        foreach (ProgressionSpriteSwitcher spriteSwitcher in spriteSwitchers)
+        {
+            spriteSwitcher.UpdateSprite();
+        }
     }
 
 }

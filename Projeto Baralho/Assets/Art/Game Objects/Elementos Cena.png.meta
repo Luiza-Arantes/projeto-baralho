@@ -609,7 +609,7 @@ TextureImporter:
       name: Elementos Cena_24
       rect:
         serializedVersion: 2
-        x: 612
+        x: 516
         y: 244
         width: 158
         height: 500
@@ -706,6 +706,27 @@ TextureImporter:
       bones: []
       spriteID: 7fc301dffde46e643be609742bf02ad7
       internalID: 1541913657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementos Cena_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 244
+        width: 158
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e21f0c88c3e065489848bb35cc5913e
+      internalID: -922136912
       vertices: []
       indices: 
       edges: []

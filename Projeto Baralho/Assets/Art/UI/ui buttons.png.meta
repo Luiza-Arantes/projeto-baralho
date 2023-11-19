@@ -126,8 +126,8 @@ TextureImporter:
       name: hud_0
       rect:
         serializedVersion: 2
-        x: 1844
-        y: 996
+        x: 1746
+        y: 934
         width: 39
         height: 45
       alignment: 0
@@ -147,8 +147,8 @@ TextureImporter:
       name: hud_2
       rect:
         serializedVersion: 2
-        x: 1852
-        y: 844
+        x: 1754
+        y: 782
         width: 28
         height: 58
       alignment: 0
@@ -168,8 +168,8 @@ TextureImporter:
       name: hud_4
       rect:
         serializedVersion: 2
-        x: 1569
-        y: 572
+        x: 1728
+        y: 213
         width: 60
         height: 65
       alignment: 0
@@ -189,8 +189,8 @@ TextureImporter:
       name: hud_5
       rect:
         serializedVersion: 2
-        x: 1483
-        y: 510
+        x: 1642
+        y: 151
         width: 65
         height: 60
       alignment: 0
@@ -210,8 +210,8 @@ TextureImporter:
       name: hud_6
       rect:
         serializedVersion: 2
-        x: 1569
-        y: 455
+        x: 1728
+        y: 96
         width: 60
         height: 65
       alignment: 0
@@ -231,8 +231,8 @@ TextureImporter:
       name: hud_7
       rect:
         serializedVersion: 2
-        x: 1651
-        y: 510
+        x: 1810
+        y: 151
         width: 65
         height: 60
       alignment: 0
@@ -248,6 +248,111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ui buttons_0
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 108
+        width: 380
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a1386c247ad4d479d571683e929d42
+      internalID: -381093237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui buttons_1
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 329
+        width: 388
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f256bcf55ece88749b937c6628efd9e5
+      internalID: -827152247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui buttons_2
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 554
+        width: 364
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b8e01a6cfa8f54290a137b7ebde0ad
+      internalID: -981370994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui buttons_3
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 783
+        width: 369
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede17614be612ec43a0c3065450fcf49
+      internalID: -1499775306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkmark
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 496
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d055320adecc14da75fec5996f59cd
+      internalID: -891789290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -259,6 +364,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      checkmark: -891789290
       hud_0: 1668941991
       hud_1: 486220633
       hud_2: 475931656
@@ -267,6 +373,10 @@ TextureImporter:
       hud_5: 2114671185
       hud_6: -1248158007
       hud_7: 804935568
+      ui buttons_0: -381093237
+      ui buttons_1: -827152247
+      ui buttons_2: -981370994
+      ui buttons_3: -1499775306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

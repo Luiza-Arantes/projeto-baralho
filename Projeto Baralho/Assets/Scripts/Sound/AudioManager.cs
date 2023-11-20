@@ -89,6 +89,7 @@ public class AudioManager : MonoBehaviour
         if (!bgm.ContainsKey(bgmKey))
             return;
 
+        Debug.Log(bgmKey);
         bgm[bgmKey].start();
     }
 

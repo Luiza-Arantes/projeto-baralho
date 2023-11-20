@@ -25,6 +25,8 @@ public class InventorySO : ScriptableObject
         itens.Add(item);
 
         itemEvent?.Invoke();
+
+        AudioManager.Instance.PlaySound("GrabItem", Vector3.zero);
     }
 
     public void RemoveItem(InventoryItemSO item)

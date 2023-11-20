@@ -20,6 +20,7 @@ MonoBehaviour:
     Data4: -1619917776
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: 4989531918038840176}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -46,8 +47,8 @@ MonoBehaviour:
     Data3: -1487199610
     Data4: -1307077713
   Banks:
-  - {fileID: 4989531918038840176}
   - {fileID: 3332710491416417662}
+  - {fileID: 4989531918038840176}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -55,6 +56,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 310935
+--- !u!114 &-7614611044451414328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Fmod/AudioBaralho/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638361100837755213
+  FileSizes:
+  - Name: Desktop
+    Value: 25920
+  Exists: 1
 --- !u!114 &-7459056214630677658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +96,7 @@ MonoBehaviour:
     Data4: -1498523131
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: -7614611044451414328}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -102,6 +124,7 @@ MonoBehaviour:
     Data4: 57494570
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: -7614611044451414328}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -129,6 +152,7 @@ MonoBehaviour:
     Data4: 1371006918
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: -7614611044451414328}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -156,6 +180,7 @@ MonoBehaviour:
     Data4: 870587197
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: -7614611044451414328}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -183,13 +208,14 @@ MonoBehaviour:
     Data4: -1725366845
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: -7614611044451414328}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 333
+  Length: 334
 --- !u!114 &-470137272405635127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,10 +231,10 @@ MonoBehaviour:
   Path: ../../../Fmod/AudioBaralho/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638361055763862140
+  lastModified: 638361100834033152
   FileSizes:
   - Name: Desktop
-    Value: 1516
+    Value: 1562
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -226,6 +252,7 @@ MonoBehaviour:
   - {fileID: -470137272405635127}
   - {fileID: 3332710491416417662}
   - {fileID: 4989531918038840176}
+  - {fileID: -7614611044451414328}
   EditorEvents:
   - {fileID: -8496255884306971634}
   - {fileID: -1410331959277485418}
@@ -242,7 +269,7 @@ MonoBehaviour:
   - {fileID: 3332710491416417662}
   StringsBanks:
   - {fileID: -470137272405635127}
-  cacheTime: 638361055763862140
+  cacheTime: 638361100837755213
   cacheVersion: 131608
 --- !u!114 &2034548228345215725
 MonoBehaviour:
@@ -264,6 +291,7 @@ MonoBehaviour:
     Data4: -902168058
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: 4989531918038840176}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -286,10 +314,10 @@ MonoBehaviour:
   Path: ../../../Fmod/AudioBaralho/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638361055763842199
+  lastModified: 638361100834003227
   FileSizes:
   - Name: Desktop
-    Value: 8056672
+    Value: 8057760
   Exists: 1
 --- !u!114 &4176824729244559205
 MonoBehaviour:
@@ -311,6 +339,7 @@ MonoBehaviour:
     Data4: 951098037
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: -7614611044451414328}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -333,10 +362,10 @@ MonoBehaviour:
   Path: ../../../Fmod/AudioBaralho/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638361045591613660
+  lastModified: 638361100835285875
   FileSizes:
   - Name: Desktop
-    Value: 3874176
+    Value: 8030848
   Exists: 1
 --- !u!114 &8616592696082588332
 MonoBehaviour:
@@ -358,6 +387,7 @@ MonoBehaviour:
     Data4: -2138039753
   Banks:
   - {fileID: 3332710491416417662}
+  - {fileID: -7614611044451414328}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

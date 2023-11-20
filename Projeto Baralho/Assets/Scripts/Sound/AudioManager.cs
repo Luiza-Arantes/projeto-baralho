@@ -57,7 +57,7 @@ public class AudioManager : MonoBehaviour
         sfxVolume = defaultVolume * masterVolume;
         sfxBus.setVolume(sfxVolume);
 
-        PlayBGM("bgm");
+        PlayBGM("BGM");
     }
 
     public void PlaySound(string sound, Vector3 worldPos)

@@ -13,8 +13,96 @@ MonoBehaviour:
   m_Name: AudioLibrary
   m_EditorClassIdentifier: 
   sounds:
-    list: []
+    list:
+    - Key: BGM
+      Value:
+        Guid:
+          Data1: 432063569
+          Data2: 1341477861
+          Data3: -1487199610
+          Data4: -1307077713
+        Path: event:/BGM
+    - Key: MenuMusic
+      Value:
+        Guid:
+          Data1: -548738197
+          Data2: 1150958201
+          Data3: 1995294601
+          Data4: -902168058
+        Path: event:/MenuMusic
+    - Key: TunnelAmbience
+      Value:
+        Guid:
+          Data1: 594206941
+          Data2: 1104023502
+          Data3: 1837305246
+          Data4: -1619917776
+        Path: event:/TunnelAmbience
+    - Key: MenuClick
+      Value:
+        Guid:
+          Data1: -1453206526
+          Data2: 1251053930
+          Data3: -954779227
+          Data4: 870587197
+        Path: event:/MenuClick
+    - Key: NonInteractive
+      Value:
+        Guid:
+          Data1: -963987713
+          Data2: 1120560891
+          Data3: -363483254
+          Data4: 951098037
+        Path: event:/NonInteractiveElement
+    - Key: IngameClick
+      Value:
+        Guid:
+          Data1: -1143305121
+          Data2: 1256820887
+          Data3: -648997219
+          Data4: -1498523131
+        Path: event:/IngameClick
+    - Key: GrabItem
+      Value:
+        Guid:
+          Data1: -1773893300
+          Data2: 1296335052
+          Data3: -2041174599
+          Data4: 1371006918
+        Path: event:/GrabItem
+    - Key: PaintingCompleted
+      Value:
+        Guid:
+          Data1: 1137138191
+          Data2: 1328447496
+          Data3: 1781189018
+          Data4: -1725366845
+        Path: event:/PaintingCompletion
+    - Key: PaintingReveal
+      Value:
+        Guid:
+          Data1: -1658627334
+          Data2: 1152186327
+          Data3: -919628662
+          Data4: -2138039753
+        Path: event:/PaintingReveal
+    - Key: PencilDraw
+      Value:
+        Guid:
+          Data1: 474355242
+          Data2: 1294526982
+          Data3: -245660490
+          Data4: 57494570
+        Path: event:/PencilDraw
   eventIntances:
     list: []
   bgm:
-    list: []
+    list:
+    - Key: BGM
+      Value:
+        Guid:
+          Data1: 432063569
+          Data2: 1341477861
+          Data3: -1487199610
+          Data4: -1307077713
+        Path: event:/BGM

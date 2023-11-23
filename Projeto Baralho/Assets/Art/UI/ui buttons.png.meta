@@ -353,6 +353,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Logotipo
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 235
+        width: 525
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fc3e29ff5c871498fc9fa546ba154f
+      internalID: 1014857560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -364,6 +385,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Logotipo: 1014857560
       checkmark: -891789290
       hud_0: 1668941991
       hud_1: 486220633

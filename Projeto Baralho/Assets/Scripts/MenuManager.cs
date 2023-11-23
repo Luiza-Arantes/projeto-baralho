@@ -17,6 +17,11 @@ public class MenuManager : MonoBehaviour
 
     }
 
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("Quarto");
+    }
+
     public void QuitGame()
     {
         Debug.Log("Saiu do Jogo");

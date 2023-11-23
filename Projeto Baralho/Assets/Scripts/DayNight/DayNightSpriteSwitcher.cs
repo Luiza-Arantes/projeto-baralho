@@ -15,7 +15,7 @@ public class DayNightSpriteSwitcher : MonoBehaviour
 		set
 		{
 			_isDay = value;
-			onSwitchDayNight.Invoke();
+			onSwitchDayNight?.Invoke();
 		}
 	}
 	public Sprite daySprite;

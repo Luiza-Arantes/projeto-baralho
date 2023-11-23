@@ -6,6 +6,10 @@ public class Progression : MonoBehaviour
 {
     static Dictionary<string, int> events = new Dictionary<string, int>() { };
 
+    public static void ClearEvents()
+    {
+        events.Clear();
+    }
     public static int GetEventCounter(string eventId)
     {
         if (events.ContainsKey(eventId))

@@ -34,5 +34,7 @@ public class LightsOutCell : MonoBehaviour
     public void OnClick()
     {
         LightsOut.instance.OnCellClicked(index);
+        
+        AudioManager.Instance.PlaySound("LightsOutClick", Vector3.zero);
     }
 }

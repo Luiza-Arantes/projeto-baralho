@@ -23,7 +23,9 @@ public class ComputerPuzzleManager : MonoBehaviour
         if (completed)
         {
             windowsBg.SetActive(true);
-
+    
+            AudioManager.Instance.PlaySound("ComputerPassword", Vector3.zero);
+    
             if (insertedDisc)
             {
                 window.SetActive(true);
@@ -41,6 +43,8 @@ public class ComputerPuzzleManager : MonoBehaviour
 
         currentOrder.Add(card);
         inventory.RemoveItem(card);
+
+         AudioManager.Instance.PlaySound("CardSwipe", Vector3.zero);
 
         if (card.Name.Contains("Glasses"))
         {

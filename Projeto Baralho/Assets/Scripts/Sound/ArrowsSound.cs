@@ -13,4 +13,16 @@ public class ArrowsSound : MonoBehaviour
     {
         AudioManager.Instance.PlaySound("PaintingReveal", Vector3.zero);
     }
+
+    public void DrawerInteraction()
+    {
+        AudioManager.Instance.PlaySound("DrawerInteraction", Vector3.zero);
+    }
+
+    public void Unlock()
+    {
+        AudioManager.Instance.PlaySound("Unlock", Vector3.zero);
+    }
+
+
 }

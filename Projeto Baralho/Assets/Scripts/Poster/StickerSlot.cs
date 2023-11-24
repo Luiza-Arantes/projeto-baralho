@@ -19,5 +19,7 @@ public class StickerSlot : MonoBehaviour, IDropHandler
                 sticker.puzzle.SetSticker(sticker, index);
             }
         }
+
+         AudioManager.Instance.PlaySound("Sticker", Vector3.zero);
     }
 }

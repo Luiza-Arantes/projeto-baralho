@@ -60,6 +60,8 @@ public class GridLock : MonoBehaviour
             buttons[index].GetComponent<Image>().sprite = offSprite;
         }
 
+         AudioManager.Instance.PlaySound("GridlockClick", Vector3.zero);
+
         CheckSolved();
     }
 }

@@ -70,6 +70,62 @@ MonoBehaviour:
           Data3: -245660490
           Data4: 57494570
         Path: event:/PencilDraw
+    - Key: DrawerInteraction
+      Value:
+        Guid:
+          Data1: -97479121
+          Data2: 1136390352
+          Data3: -1091133023
+          Data4: 2113031134
+        Path: event:/DrawersInteraction
+    - Key: CardSwipe
+      Value:
+        Guid:
+          Data1: -1948448585
+          Data2: 1182846336
+          Data3: 471529608
+          Data4: 1423809495
+        Path: event:/CardSwipe
+    - Key: ComputerPassword
+      Value:
+        Guid:
+          Data1: -898464659
+          Data2: 1193432148
+          Data3: -1495908464
+          Data4: -1878716276
+        Path: event:/ComputerPassword
+    - Key: Sticker
+      Value:
+        Guid:
+          Data1: 1205346241
+          Data2: 1338190498
+          Data3: 1408388006
+          Data4: 576078213
+        Path: event:/StickSticker
+    - Key: Unlock
+      Value:
+        Guid:
+          Data1: 252116396
+          Data2: 1309082918
+          Data3: 551583113
+          Data4: -386068139
+        Path: event:/PadlockUnlock
+    - Key: GridlockClick
+      Value:
+        Guid:
+          Data1: -1640216125
+          Data2: 1263733200
+          Data3: 149072828
+          Data4: 1969316708
+        Path: event:/GridlockClick
+    - Key: LightsOutClick
+      Value:
+        Guid:
+          Data1: -1543035629
+          Data2: 1290424361
+          Data3: -795958121
+          Data4: -2108168955
+        Path: event:/LightsOutClick
   eventIntances:
     list: []
   bgm:

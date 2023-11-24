@@ -22,7 +22,6 @@ public class ComputerPuzzleManager : MonoBehaviour
 
         if (completed)
         {
-            AudioManager.Instance.PlaySound("ComputerPassword", Vector3.zero);
             
             windowsBg.SetActive(true);
     

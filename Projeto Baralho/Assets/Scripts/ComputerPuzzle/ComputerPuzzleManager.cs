@@ -22,9 +22,9 @@ public class ComputerPuzzleManager : MonoBehaviour
 
         if (completed)
         {
-            windowsBg.SetActive(true);
-    
             AudioManager.Instance.PlaySound("ComputerPassword", Vector3.zero);
+            
+            windowsBg.SetActive(true);
     
             if (insertedDisc)
             {

@@ -22,7 +22,6 @@ public class ComputerPuzzleManager : MonoBehaviour
 
         if (completed)
         {
-            
             windowsBg.SetActive(true);
     
             if (insertedDisc)
@@ -82,6 +81,7 @@ public class ComputerPuzzleManager : MonoBehaviour
         completed = true;
         Progression.IncrementCounter("Reflexo");
         windowsBg.SetActive(true);
+        AudioManager.Instance.PlaySound("ComputerPassword",Vector3.zero);
         List<InventoryItemSO> itensToRemove = new List<InventoryItemSO>();
 
         for (int i = 0; i < inventory.itens.Count; i++)

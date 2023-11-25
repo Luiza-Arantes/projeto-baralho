@@ -146,3 +146,11 @@ MonoBehaviour:
           Data3: 1837305246
           Data4: -1619917776
         Path: event:/TunnelAmbience
+    - Key: MenuMusic
+      Value:
+        Guid:
+          Data1: -548738197
+          Data2: 1150958201
+          Data3: 1995294601
+          Data4: -902168058
+        Path: event:/MenuMusic

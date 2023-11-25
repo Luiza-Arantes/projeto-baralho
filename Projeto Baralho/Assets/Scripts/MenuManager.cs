@@ -10,6 +10,7 @@ public class MenuManager : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("Quarto");
+        AudioManager.Instance.PlayBGM("BGM");
     }
 
     public void QuitGame()
@@ -36,6 +37,7 @@ public class MenuManager : MonoBehaviour
     public void GoToMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        AudioManager.Instance.PlayBGM("MenuMusic");
     }
 
     public void ButtonClick()

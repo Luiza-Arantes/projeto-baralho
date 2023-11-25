@@ -32,6 +32,11 @@ public class AudioManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+        else
+        {
+            Destroy(this.gameObject);
+            return;
+        }
 
         eventInstances = new Dictionary<string, EventInstance>();
         bgm = new Dictionary<string, EventInstance>();
@@ -57,7 +62,7 @@ public class AudioManager : MonoBehaviour
         sfxVolume = defaultVolume * masterVolume;
         sfxBus.setVolume(sfxVolume);
 
-        PlayBGM("BGM");
+        PlayBGM("MenuMusic");
     }
 
     public void PlaySound(string sound, Vector3 worldPos)
@@ -89,8 +94,21 @@ public class AudioManager : MonoBehaviour
         if (!bgm.ContainsKey(bgmKey))
             return;
 
-        Debug.Log(bgmKey);
-        bgm[bgmKey].start();
+        if (bgmKey!=currentRegionKey)
+        {
+            currentRegion.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            currentRegion=bgm[bgmKey];
+            currentRegionKey=bgmKey;
+            currentRegion.start();
+        }
+
+    }
+
+    public void SetMasterVolume(float volume)
+    {
+        masterVolume = volume;
+        SetMusicVolume(musicVolume);
+        SetSFXVolume(sfxVolume);
     }
 
     public void SetMusicVolume(float volume)

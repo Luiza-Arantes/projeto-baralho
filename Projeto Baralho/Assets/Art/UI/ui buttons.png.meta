@@ -362,7 +362,7 @@ TextureImporter:
         width: 525
         height: 759
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,6 +370,69 @@ TextureImporter:
       bones: []
       spriteID: e1fc3e29ff5c871498fc9fa546ba154f
       internalID: 1014857560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui buttons_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 59
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a19b9029c50df4687b82599278fd38
+      internalID: -857109033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui buttons_5
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 84
+        width: 471
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54300bf9d93558f4d889d5f283e057cb
+      internalID: 211192405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui buttons_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 44
+        width: 471
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e72cc7dcb4ca849892db884ff72a8a
+      internalID: -391027181
       vertices: []
       indices: 
       edges: []
@@ -399,6 +462,9 @@ TextureImporter:
       ui buttons_1: -827152247
       ui buttons_2: -981370994
       ui buttons_3: -1499775306
+      ui buttons_4: -857109033
+      ui buttons_5: 211192405
+      ui buttons_6: -391027181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

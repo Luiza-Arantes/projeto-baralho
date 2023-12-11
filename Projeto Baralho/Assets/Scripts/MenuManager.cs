@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    [SerializeField] private InventorySO inventory;
     public delegate void OnRestartGameHandler();
     public static event OnRestartGameHandler onRestart;
     public void PlayGame()
@@ -24,6 +25,7 @@ public class MenuManager : MonoBehaviour
         onRestart?.Invoke();
         DayNightSpriteSwitcher.isDay = false;
         Progression.ClearEvents();
+        inventory.Reset();
         Invoke(nameof(PlayGame), .05f);
     }
 

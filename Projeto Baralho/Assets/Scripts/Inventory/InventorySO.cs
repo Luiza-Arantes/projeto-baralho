@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(fileName="Inventory",menuName="ScriptableObjects/Inventory")]
+[CreateAssetMenu(fileName = "Inventory", menuName = "ScriptableObjects/Inventory")]
 public class InventorySO : ScriptableObject
 {
     public List<InventoryItemSO> itens = new List<InventoryItemSO>();
@@ -17,6 +17,11 @@ public class InventorySO : ScriptableObject
             itemEvent = new UnityEvent();
         }
 
+        itens.Clear();
+    }
+
+    public void Reset()
+    {
         itens.Clear();
     }
 
